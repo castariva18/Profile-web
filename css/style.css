@@ -162,7 +162,7 @@ span.m-left {
     z-index: 1;
 }
 
-a.about-me-info p {
+.about-me-info p {
     font-size: 1.3rem;
     color: #BEBEBE;
 }
@@ -210,4 +210,108 @@ a.about-me-info p {
     justify-content: center;
     margin-bottom: 40px;
 } 
-14.57
+
+div[class^='tag-'] {
+    clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%,0% 50%,0% 0%);
+    width: 120px;
+    height: 30px;
+    background-color: #1785A7;
+    margin-right: 30px;
+}
+
+
+div[class^='tag-'] p {
+    color: #FFF;
+    text-align: left;
+    padding-left: 10px;
+    font-size: 1.1rem;
+    padding-top: 3px;    
+}
+
+.progressbar {
+    position: relative;
+    width: 600px;
+    height: 20px;
+    border: 2px solid #48CFAD;
+    border-radius: 20px;
+    margin-top: 7px;
+}
+
+
+div[class^='bar-'] {
+    position: absolute;
+    background-color: #48CFAD;
+    height: 10px;
+    border-radius: 20px;
+    margin: 2.7px;
+}
+
+.bar-html,
+.bar-css,
+.bar-javascript{
+    width: calc(0 - 6px);
+}
+
+.work-category button{
+    text-transform: capitalize;
+    border: 3px solid #ED5556;
+    padding: 15px 30px;
+    border-radius: 50px;
+    color: #ED5556;
+    font-size: 1.1rem;
+    letter-spacing: 1px;
+    background-color: #252627;
+    outline: none;
+    cursor: pointer;
+}
+
+
+div[class^='category-'] {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, mimax(350px, 1fr));
+    grid-gap: 20px;
+}
+
+.work a {
+    justify-self: center;
+    position: relative;
+    display: inline-block;
+}
+
+.work-category .active {
+    background-color: #ED5556;
+}
+
+button.active {
+    color: #FFF;
+}
+
+.work a img {
+    width: 350px;
+    justify-self: center;
+}
+
+div.hideCategory {
+    display: none;
+}
+
+.showCategory {
+    display: block;
+}
+
+.contact {
+    margin-top: 50px;
+}
+
+footer hr {
+    border: 2px solid #707070;
+    margin-top: 80px;
+}
+
+footer p {
+    text-align: center;
+    color: #707070;
+    font-size: 1.2rem;
+    padding: 30px 0;
+}
