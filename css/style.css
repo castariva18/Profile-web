@@ -191,6 +191,10 @@ span.m-left {
     font-size: 10rem;
     opacity: .1;
 }
+.skills p {
+    margin-bottom: 50px;
+    justify-self: center;
+}
 
 .skills-info {
     font-size: 1.4rem;
@@ -208,7 +212,7 @@ span.m-left {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin-bottom: 40px;
+    margin-bottom: 50px;
 } 
 
 div[class^='tag-'] {
@@ -248,7 +252,8 @@ div[class^='bar-'] {
 
 .bar-html,
 .bar-css,
-.bar-javascript{
+.bar-javascript,
+.bar-react{
     width: calc(0 - 6px);
 }
 
